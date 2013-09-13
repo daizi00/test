@@ -71,6 +71,7 @@ private:
    // (do not implement these two functions)
    Table &operator =(const Table &);
    Table(const Table &);
+   int a=0;
 
    // hash function for a string
    // (we defined it for you)
