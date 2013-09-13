@@ -78,7 +78,9 @@ private:
   unsigned int hashCode(const string &word)  {
     // tr1 is a new (not standard yet) C++ library
     // calls a library-defined hash function for string
+    //resss
     return tr1::hash<string>()(word) % hashSize;
+    
   }
 
 // add private data and methods here
